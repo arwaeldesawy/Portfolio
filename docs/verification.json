@@ -1,0 +1,71 @@
+{
+  "widths": [
+    {
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "overflow": false
+    }
+  ],
+  "routes": [
+    {
+      "slug": "medivault",
+      "accessibilityViolations": 0,
+      "ogImage": true
+    },
+    {
+      "slug": "prompt-library",
+      "accessibilityViolations": 0,
+      "ogImage": true
+    },
+    {
+      "slug": "ai-customer-support",
+      "accessibilityViolations": 0,
+      "ogImage": true
+    },
+    {
+      "slug": "brain-tumor",
+      "accessibilityViolations": 0,
+      "ogImage": true
+    },
+    {
+      "slug": "resume-screening",
+      "accessibilityViolations": 0,
+      "ogImage": true
+    },
+    {
+      "slug": "nids",
+      "accessibilityViolations": 0,
+      "ogImage": true
+    }
+  ],
+  "checks": [
+    "All six desktop section anchors",
+    "Skip link and focus",
+    "CV download preserves original bytes",
+    "Email, phone, LinkedIn, and GitHub links",
+    "Clipboard success and permission failure feedback",
+    "Mobile menu Enter, Tab, Shift+Tab, Escape, focus return, selection, and desktop resize",
+    "Project gallery arrows, jump navigation, end states, native keyboard scrolling, and thumbnail links",
+    "Mobile controls below cards browse both directions with 44px touch targets",
+    "Case study navigation and browser back",
+    "Reduced motion has static visible artwork",
+    "200% CSS zoom and 720px effective viewport reflow",
+    "No page errors, console warnings, broken images, or route overflow"
+  ],
+  "errors": []
+}

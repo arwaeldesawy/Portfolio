@@ -1,0 +1,937 @@
+[
+  {
+    "route": "/",
+    "scores": {
+      "performance": 96,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 905.3833999999999,
+      "largest-contentful-paint": 2750.3834,
+      "total-blocking-time": 19.500000000000227,
+      "cumulative-layout-shift": 0.000001489377457172689
+    },
+    "failures": [
+      {
+        "id": "largest-contentful-paint",
+        "score": 0.84,
+        "description": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more about the Largest Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/)"
+      },
+      {
+        "id": "max-potential-fid",
+        "score": 0.98,
+        "description": "The maximum potential First Input Delay that your users could experience is the duration of the longest task. [Learn more about the Maximum Potential First Input Delay metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-max-potential-fid/)."
+      },
+      {
+        "id": "interactive",
+        "score": 0.96,
+        "description": "Time to Interactive is the amount of time it takes for the page to become fully interactive. [Learn more about the Time to Interactive metric](https://developer.chrome.com/docs/lighthouse/performance/interactive/)."
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "score": 0,
+        "description": "Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users. [Learn more about accessible names](https://dequeuniversity.com/rules/axe/4.13/label-content-name-mismatch).",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-0-A",
+                "path": "1,HTML,1,BODY,3,MAIN,2,SECTION,1,DIV,2,DIV,0,DIV,0,ARTICLE,0,A",
+                "selector": "div.gallery-viewport > div.gallery-track > article.project-card > a.thumbnail-link",
+                "boundingRect": {
+                  "top": 865,
+                  "bottom": 1082,
+                  "left": 20,
+                  "right": 367,
+                  "width": 347,
+                  "height": 217
+                },
+                "snippet": "<a class=\"thumbnail-link\" aria-label=\"View MediVault case study\" href=\"/projects/medivault\">",
+                "nodeLabel": "Project illustration",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-1-A",
+                "path": "1,HTML,1,BODY,3,MAIN,2,SECTION,1,DIV,2,DIV,0,DIV,1,ARTICLE,0,A",
+                "selector": "div.gallery-viewport > div.gallery-track > article.project-card > a.thumbnail-link",
+                "boundingRect": {
+                  "top": 865,
+                  "bottom": 1082,
+                  "left": 391,
+                  "right": 738,
+                  "width": 347,
+                  "height": 217
+                },
+                "snippet": "<a class=\"thumbnail-link\" aria-label=\"View Prompt Library case study\" href=\"/projects/prompt-library\">",
+                "nodeLabel": "15\nReusable templates\nAsk a question\nSummarize\nCreate & write\nProject illustrat…",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-2-A",
+                "path": "1,HTML,1,BODY,3,MAIN,2,SECTION,1,DIV,2,DIV,0,DIV,2,ARTICLE,0,A",
+                "selector": "div.gallery-viewport > div.gallery-track > article.project-card > a.thumbnail-link",
+                "boundingRect": {
+                  "top": 865,
+                  "bottom": 1082,
+                  "left": 762,
+                  "right": 1109,
+                  "width": 347,
+                  "height": 217
+                },
+                "snippet": "<a class=\"thumbnail-link\" aria-label=\"View AI Customer Support Automation case study\" href=\"/projects/ai-customer-support\">",
+                "nodeLabel": "How can you help?\nProject illustration",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-3-A",
+                "path": "1,HTML,1,BODY,3,MAIN,2,SECTION,1,DIV,2,DIV,0,DIV,3,ARTICLE,0,A",
+                "selector": "div.gallery-viewport > div.gallery-track > article.project-card > a.thumbnail-link",
+                "boundingRect": {
+                  "top": 865,
+                  "bottom": 1082,
+                  "left": 1133,
+                  "right": 1480,
+                  "width": 347,
+                  "height": 217
+                },
+                "snippet": "<a class=\"thumbnail-link\" aria-label=\"View Brain Tumor Classification case study\" href=\"/projects/brain-tumor\">",
+                "nodeLabel": "Project illustration",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-4-A",
+                "path": "1,HTML,1,BODY,3,MAIN,2,SECTION,1,DIV,2,DIV,0,DIV,4,ARTICLE,0,A",
+                "selector": "div.gallery-viewport > div.gallery-track > article.project-card > a.thumbnail-link",
+                "boundingRect": {
+                  "top": 865,
+                  "bottom": 1082,
+                  "left": 1504,
+                  "right": 1851,
+                  "width": 347,
+                  "height": 217
+                },
+                "snippet": "<a class=\"thumbnail-link\" aria-label=\"View AI-Powered Resume Screening case study\" href=\"/projects/resume-screening\">",
+                "nodeLabel": "Project illustration",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-5-A",
+                "path": "1,HTML,1,BODY,3,MAIN,2,SECTION,1,DIV,2,DIV,0,DIV,5,ARTICLE,0,A",
+                "selector": "div.gallery-viewport > div.gallery-track > article.project-card > a.thumbnail-link",
+                "boundingRect": {
+                  "top": 865,
+                  "bottom": 1082,
+                  "left": 1875,
+                  "right": 2222,
+                  "width": 347,
+                  "height": 217
+                },
+                "snippet": "<a class=\"thumbnail-link\" aria-label=\"View Network Intrusion Detection System case study\" href=\"/projects/nids\">",
+                "nodeLabel": "Project illustration",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.semantics",
+              "wcag21a",
+              "wcag253",
+              "EN-301-549",
+              "EN-9.2.5.3",
+              "RGAAv4",
+              "RGAA-6.1.5",
+              "experimental"
+            ]
+          }
+        }
+      },
+      {
+        "id": "unused-javascript",
+        "score": 0,
+        "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/).",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "source",
+                "valueType": "code"
+              },
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceBytes"
+              },
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceWastedBytes"
+              },
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:3001/_next/static/chunks/0s7mvllxht1mo.js",
+              "totalBytes": 71965,
+              "wastedBytes": 28314,
+              "wastedPercent": 39.343719647904805
+            },
+            {
+              "url": "http://localhost:3001/_next/static/chunks/0gghei3n29fzn.js",
+              "totalBytes": 45686,
+              "wastedBytes": 25577,
+              "wastedPercent": 55.98534290236552
+            }
+          ],
+          "overallSavingsMs": 300,
+          "overallSavingsBytes": 53891,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 300
+            }
+          }
+        }
+      },
+      {
+        "id": "image-delivery-insight",
+        "score": 0,
+        "description": "Reducing the download time of images can improve the perceived load time of the page and LCP. [Learn more about optimizing image size](https://developer.chrome.com/docs/performance/insights/image-delivery)",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": ""
+            },
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL",
+              "subItemsHeading": {
+                "key": "reason",
+                "valueType": "text"
+              }
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Resource Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings",
+              "subItemsHeading": {
+                "key": "wastedBytes",
+                "valueType": "bytes"
+              }
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-2-IMG",
+                "path": "1,HTML,1,BODY,3,MAIN,1,SECTION,0,DIV,0,DIV,0,IMG",
+                "selector": "section#hero > div.hero-art > div.hero-portrait > img",
+                "boundingRect": {
+                  "top": 56,
+                  "bottom": 254,
+                  "left": 59,
+                  "right": 257,
+                  "width": 198,
+                  "height": 198
+                },
+                "snippet": "<img alt=\"Arwa Elsayed Eldesawy\" fetchpriority=\"high\" loading=\"eager\" width=\"845\" height=\"1280\" decoding=\"async\" data-nimg=\"1\" style=\"color: transparent;\" sizes=\"280px\" srcset=\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprofile.2wq2_7iizz5nm.jpg&amp;w=3…\" src=\"http://localhost:3001/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprofile.…\">",
+                "nodeLabel": "Arwa Elsayed Eldesawy"
+              },
+              "url": "http://localhost:3001/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprofile.2wq2_7iizz5nm.jpg&w=640&q=75",
+              "totalBytes": 30386,
+              "wastedBytes": 29175,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "This image file is larger than it needs to be (640x642) for its displayed dimensions (104x157). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 29175
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 29175
+          }
+        }
+      },
+      {
+        "id": "legacy-javascript-insight",
+        "score": 0,
+        "description": "Polyfills and transforms enable older browsers to use new JavaScript features. However, many aren't necessary for modern browsers. Consider modifying your JavaScript build process to not transpile [Baseline](https://web.dev/articles/baseline-and-polyfills) features, unless you know you must support older browsers. [Learn why most sites can deploy ES6+ code without transpiling](https://developer.chrome.com/docs/performance/insights/legacy-javascript)",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "location",
+                "valueType": "source-location"
+              },
+              "label": "URL"
+            },
+            {
+              "key": null,
+              "valueType": "code",
+              "subItemsHeading": {
+                "key": "signal"
+              },
+              "label": ""
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Wasted bytes"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:3001/_next/static/chunks/0s7mvllxht1mo.js",
+              "wastedBytes": 13920,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "signal": "Array.prototype.at",
+                    "location": {
+                      "type": "source-location",
+                      "url": "http://localhost:3001/_next/static/chunks/0s7mvllxht1mo.js",
+                      "urlProvider": "network",
+                      "line": 0,
+                      "column": 229205
+                    }
+                  },
+                  {
+                    "signal": "Array.prototype.flat",
+                    "location": {
+                      "type": "source-location",
+                      "url": "http://localhost:3001/_next/static/chunks/0s7mvllxht1mo.js",
+                      "urlProvider": "network",
+                      "line": 0,
+                      "column": 228593
+                    }
+                  },
+                  {
+                    "signal": "Array.prototype.flatMap",
+                    "location": {
+                      "type": "source-location",
+                      "url": "http://localhost:3001/_next/static/chunks/0s7mvllxht1mo.js",
+                      "urlProvider": "network",
+                      "line": 0,
+                      "column": 228706
+                    }
+                  },
+                  {
+                    "signal": "Object.fromEntries",
+                    "location": {
+                      "type": "source-location",
+                      "url": "http://localhost:3001/_next/static/chunks/0s7mvllxht1mo.js",
+                      "urlProvider": "network",
+                      "line": 0,
+                      "column": 229082
+                    }
+                  },
+                  {
+                    "signal": "Object.hasOwn",
+                    "location": {
+                      "type": "source-location",
+                      "url": "http://localhost:3001/_next/static/chunks/0s7mvllxht1mo.js",
+                      "urlProvider": "network",
+                      "line": 0,
+                      "column": 229340
+                    }
+                  },
+                  {
+                    "signal": "String.prototype.trimEnd",
+                    "location": {
+                      "type": "source-location",
+                      "url": "http://localhost:3001/_next/static/chunks/0s7mvllxht1mo.js",
+                      "urlProvider": "network",
+                      "line": 0,
+                      "column": 228335
+                    }
+                  },
+                  {
+                    "signal": "String.prototype.trimStart",
+                    "location": {
+                      "type": "source-location",
+                      "url": "http://localhost:3001/_next/static/chunks/0s7mvllxht1mo.js",
+                      "urlProvider": "network",
+                      "line": 0,
+                      "column": 228250
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 13920
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "score": 0,
+        "description": "[Avoid chaining critical requests](https://developer.chrome.com/docs/performance/insights/network-dependency-tree) by reducing the length of chains, reducing the download size of resources, or deferring the download of unnecessary resources to improve page load.",
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "FBF45294FDBD917B368C9537CA5FDD15": {
+                    "url": "http://localhost:3001/",
+                    "navStartToEndTime": 21,
+                    "transferSize": 19214,
+                    "isLongest": true,
+                    "children": {
+                      "86799.5": {
+                        "url": "http://localhost:3001/_next/static/chunks/0jffkm92m--8a.css",
+                        "navStartToEndTime": 29,
+                        "transferSize": 7180,
+                        "isLongest": true,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 29
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "no origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4.",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "score": 0,
+        "description": "Requests are blocking the page's initial render, which may delay LCP. [Deferring or inlining](https://developer.chrome.com/docs/performance/insights/render-blocking) can move these network requests out of the critical path.",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:3001/_next/static/chunks/0jffkm92m--8a.css",
+              "totalBytes": 7180,
+              "wastedMs": 153
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "route": "/projects/medivault",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": 754.1386,
+      "largest-contentful-paint": 2488.1385999999998,
+      "total-blocking-time": 34,
+      "cumulative-layout-shift": 0
+    },
+    "failures": [
+      {
+        "id": "largest-contentful-paint",
+        "score": 0.9,
+        "description": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more about the Largest Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/)"
+      },
+      {
+        "id": "max-potential-fid",
+        "score": 0.98,
+        "description": "The maximum potential First Input Delay that your users could experience is the duration of the longest task. [Learn more about the Maximum Potential First Input Delay metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-max-potential-fid/)."
+      },
+      {
+        "id": "interactive",
+        "score": 0.98,
+        "description": "Time to Interactive is the amount of time it takes for the page to become fully interactive. [Learn more about the Time to Interactive metric](https://developer.chrome.com/docs/lighthouse/performance/interactive/)."
+      },
+      {
+        "id": "mainthread-work-breakdown",
+        "score": 0,
+        "description": "Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads helps with this. [Learn how to minimize main-thread work](https://developer.chrome.com/docs/lighthouse/performance/mainthread-work-breakdown/)",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "groupLabel",
+              "valueType": "text",
+              "label": "Category"
+            },
+            {
+              "key": "duration",
+              "valueType": "ms",
+              "granularity": 1,
+              "label": "Time Spent"
+            }
+          ],
+          "items": [
+            {
+              "group": "scriptEvaluation",
+              "groupLabel": "Script Evaluation",
+              "duration": 4047.1759999999363
+            },
+            {
+              "group": "other",
+              "groupLabel": "Other",
+              "duration": 133.09200000000018
+            },
+            {
+              "group": "garbageCollection",
+              "groupLabel": "Garbage Collection",
+              "duration": 112.72800000000267
+            },
+            {
+              "group": "styleLayout",
+              "groupLabel": "Style & Layout",
+              "duration": 48.175999999999995
+            },
+            {
+              "group": "scriptParseCompile",
+              "groupLabel": "Script Parsing & Compilation",
+              "duration": 36.428
+            },
+            {
+              "group": "paintCompositeRender",
+              "groupLabel": "Rendering",
+              "duration": 11.143999999999998
+            },
+            {
+              "group": "parseHTML",
+              "groupLabel": "Parse HTML & CSS",
+              "duration": 4.527999999999999
+            }
+          ],
+          "sortedBy": [
+            "duration"
+          ]
+        }
+      },
+      {
+        "id": "bootup-time",
+        "score": 0,
+        "description": "Consider reducing the time spent parsing, compiling, and executing JS. You may find delivering smaller JS payloads helps with this. [Learn how to reduce Javascript execution time](https://developer.chrome.com/docs/lighthouse/performance/bootup-time/).",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "total",
+              "granularity": 1,
+              "valueType": "ms",
+              "label": "Total CPU Time"
+            },
+            {
+              "key": "scripting",
+              "granularity": 1,
+              "valueType": "ms",
+              "label": "Script Evaluation"
+            },
+            {
+              "key": "scriptParseCompile",
+              "granularity": 1,
+              "valueType": "ms",
+              "label": "Script Parse"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:3001/projects/medivault",
+              "total": 4091.955999999959,
+              "scripting": 3895.255999999956,
+              "scriptParseCompile": 4.263999999999999
+            },
+            {
+              "url": "Unattributable",
+              "total": 128.28000000000014,
+              "scripting": 26.064000000000004,
+              "scriptParseCompile": 0
+            },
+            {
+              "url": "http://localhost:3001/_next/static/chunks/0s7mvllxht1mo.js",
+              "total": 127.10000000000038,
+              "scripting": 104.24800000000037,
+              "scriptParseCompile": 11.784
+            }
+          ],
+          "summary": {
+            "wastedMs": 4041.6159999999563
+          },
+          "sortedBy": [
+            "total"
+          ]
+        }
+      },
+      {
+        "id": "unused-javascript",
+        "score": 0,
+        "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/).",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "source",
+                "valueType": "code"
+              },
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceBytes"
+              },
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceWastedBytes"
+              },
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:3001/_next/static/chunks/0gghei3n29fzn.js",
+              "totalBytes": 45686,
+              "wastedBytes": 45611,
+              "wastedPercent": 99.83666153523703
+            },
+            {
+              "url": "http://localhost:3001/_next/static/chunks/0s7mvllxht1mo.js",
+              "totalBytes": 71965,
+              "wastedBytes": 30091,
+              "wastedPercent": 41.813699656354395
+            }
+          ],
+          "overallSavingsMs": 380,
+          "overallSavingsBytes": 75702,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 380
+            }
+          }
+        }
+      },
+      {
+        "id": "legacy-javascript-insight",
+        "score": 0,
+        "description": "Polyfills and transforms enable older browsers to use new JavaScript features. However, many aren't necessary for modern browsers. Consider modifying your JavaScript build process to not transpile [Baseline](https://web.dev/articles/baseline-and-polyfills) features, unless you know you must support older browsers. [Learn why most sites can deploy ES6+ code without transpiling](https://developer.chrome.com/docs/performance/insights/legacy-javascript)",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "location",
+                "valueType": "source-location"
+              },
+              "label": "URL"
+            },
+            {
+              "key": null,
+              "valueType": "code",
+              "subItemsHeading": {
+                "key": "signal"
+              },
+              "label": ""
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Wasted bytes"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:3001/_next/static/chunks/0s7mvllxht1mo.js",
+              "wastedBytes": 13920,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "signal": "Array.prototype.at",
+                    "location": {
+                      "type": "source-location",
+                      "url": "http://localhost:3001/_next/static/chunks/0s7mvllxht1mo.js",
+                      "urlProvider": "network",
+                      "line": 0,
+                      "column": 229205
+                    }
+                  },
+                  {
+                    "signal": "Array.prototype.flat",
+                    "location": {
+                      "type": "source-location",
+                      "url": "http://localhost:3001/_next/static/chunks/0s7mvllxht1mo.js",
+                      "urlProvider": "network",
+                      "line": 0,
+                      "column": 228593
+                    }
+                  },
+                  {
+                    "signal": "Array.prototype.flatMap",
+                    "location": {
+                      "type": "source-location",
+                      "url": "http://localhost:3001/_next/static/chunks/0s7mvllxht1mo.js",
+                      "urlProvider": "network",
+                      "line": 0,
+                      "column": 228706
+                    }
+                  },
+                  {
+                    "signal": "Object.fromEntries",
+                    "location": {
+                      "type": "source-location",
+                      "url": "http://localhost:3001/_next/static/chunks/0s7mvllxht1mo.js",
+                      "urlProvider": "network",
+                      "line": 0,
+                      "column": 229082
+                    }
+                  },
+                  {
+                    "signal": "Object.hasOwn",
+                    "location": {
+                      "type": "source-location",
+                      "url": "http://localhost:3001/_next/static/chunks/0s7mvllxht1mo.js",
+                      "urlProvider": "network",
+                      "line": 0,
+                      "column": 229340
+                    }
+                  },
+                  {
+                    "signal": "String.prototype.trimEnd",
+                    "location": {
+                      "type": "source-location",
+                      "url": "http://localhost:3001/_next/static/chunks/0s7mvllxht1mo.js",
+                      "urlProvider": "network",
+                      "line": 0,
+                      "column": 228335
+                    }
+                  },
+                  {
+                    "signal": "String.prototype.trimStart",
+                    "location": {
+                      "type": "source-location",
+                      "url": "http://localhost:3001/_next/static/chunks/0s7mvllxht1mo.js",
+                      "urlProvider": "network",
+                      "line": 0,
+                      "column": 228250
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 13920
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "score": 0,
+        "description": "[Avoid chaining critical requests](https://developer.chrome.com/docs/performance/insights/network-dependency-tree) by reducing the length of chains, reducing the download size of resources, or deferring the download of unnecessary resources to improve page load.",
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "09E81CB2CD3278A1B72C8B7A399E3D34": {
+                    "url": "http://localhost:3001/projects/medivault",
+                    "navStartToEndTime": 7,
+                    "transferSize": 7112,
+                    "isLongest": true,
+                    "children": {
+                      "86805.4": {
+                        "url": "http://localhost:3001/_next/static/chunks/0jffkm92m--8a.css",
+                        "navStartToEndTime": 11,
+                        "transferSize": 7180,
+                        "isLongest": true,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 11
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "no origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4.",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "score": 0,
+        "description": "Requests are blocking the page's initial render, which may delay LCP. [Deferring or inlining](https://developer.chrome.com/docs/performance/insights/render-blocking) can move these network requests out of the critical path.",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://localhost:3001/_next/static/chunks/0jffkm92m--8a.css",
+              "totalBytes": 7180,
+              "wastedMs": 152
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

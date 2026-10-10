@@ -1,0 +1,373 @@
+{
+  "personalInfo": {
+    "name": "Arwa Elsayed Eldesawy",
+    "title": "AI Engineer",
+    "subtitles": [
+      "Computer Vision",
+      "Generative AI & RAG",
+      "Deep Learning",
+      "Workflow Automation",
+      "FastAPI & Backend APIs"
+    ],
+    "bio": "Entry-level AI Engineer with a strong foundation in Machine Learning, Deep Learning, Computer Vision, and Generative AI. Experienced in developing AI applications and intelligent workflows using Python, PyTorch, TensorFlow, FastAPI, LLM APIs, and n8n, with internship experience in ML/DL model development and RAG. Strong foundation in AI integration, REST API development, and workflow automation.",
+    "email": "arwaeldesawy24@gmail.com",
+    "phone": "01117267722",
+    "location": "5th Settlement, Cairo, Egypt",
+    "githubUrl": "[PLACEHOLDER_GITHUB_URL]",
+    "linkedinUrl": "[PLACEHOLDER_LINKEDIN_URL]",
+    "profilePhotoUrl": "/image/photo_5927197835516383618_y.jpg",
+    "initials": "AE",
+    "cvUrl": "/Arwa_Eldesawy_CV.pdf"
+  },
+  "quickFacts": [
+    {
+      "label": "Location",
+      "value": "5th Settlement, Cairo, Egypt",
+      "iconName": "MapPin"
+    },
+    {
+      "label": "Education",
+      "value": "B.Sc. in Artificial Intelligence (MUST)",
+      "iconName": "GraduationCap"
+    },
+    {
+      "label": "Cumulative GPA",
+      "value": "3.66 / 4.0",
+      "iconName": "Award"
+    },
+    {
+      "label": "Specialization",
+      "value": "CV, GenAI, RAG & Automation",
+      "iconName": "Briefcase"
+    }
+  ],
+  "focusAreas": [
+    {
+      "title": "Computer Vision",
+      "description": "Building diagnostic and analytical vision pipelines using CNNs, Transfer Learning, OpenCV, and YOLOv8 for medical imaging and object recognition.",
+      "iconName": "Eye",
+      "technologies": [
+        "OpenCV",
+        "YOLOv8",
+        "CNNs",
+        "XceptionNet",
+        "OCR",
+        "Transfer Learning"
+      ]
+    },
+    {
+      "title": "Generative AI & RAG",
+      "description": "Architecting intelligent retrieval systems, conversational agents, and dynamic prompt engines using vector embeddings and state-of-the-art LLM APIs.",
+      "iconName": "Sparkles",
+      "technologies": [
+        "LLM APIs",
+        "RAG Frameworks",
+        "Prompt Engineering",
+        "Vector Embeddings",
+        "Gemini"
+      ]
+    },
+    {
+      "title": "AI Automation & APIs",
+      "description": "Connecting intelligent models to robust production systems through high-performance FastAPI backends and n8n autonomous workflow pipelines.",
+      "iconName": "Workflow",
+      "technologies": [
+        "FastAPI",
+        "n8n",
+        "PostgreSQL",
+        "WebSockets",
+        "REST APIs",
+        "SQLAlchemy"
+      ]
+    }
+  ],
+  "skillCategories": [
+    {
+      "name": "Languages",
+      "iconName": "Code",
+      "skills": [
+        "Python",
+        "C++",
+        "SQL"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "iconName": "Brain",
+      "skills": [
+        "PyTorch",
+        "TensorFlow",
+        "Scikit-learn",
+        "Pandas"
+      ]
+    },
+    {
+      "name": "Computer Vision",
+      "iconName": "Eye",
+      "skills": [
+        "OpenCV",
+        "YOLOv8",
+        "CNNs",
+        "OCR",
+        "Transfer Learning"
+      ]
+    },
+    {
+      "name": "LLMs & Generative AI",
+      "iconName": "Sparkles",
+      "skills": [
+        "LLMs",
+        "Prompt Engineering",
+        "RAG",
+        "LLM APIs"
+      ]
+    },
+    {
+      "name": "AI Automation",
+      "iconName": "Workflow",
+      "skills": [
+        "n8n",
+        "Workflow Automation"
+      ]
+    },
+    {
+      "name": "Databases",
+      "iconName": "Database",
+      "skills": [
+        "PostgreSQL",
+        "MySQL",
+        "SQL Server",
+        "Oracle"
+      ]
+    },
+    {
+      "name": "Backend & APIs",
+      "iconName": "Server",
+      "skills": [
+        "FastAPI",
+        "REST APIs",
+        "SQLAlchemy"
+      ]
+    },
+    {
+      "name": "Tools & Practices",
+      "iconName": "Wrench",
+      "skills": [
+        "Git/GitHub",
+        "Jira",
+        "Agile",
+        "Pull Requests",
+        "Code Review",
+        "Cursor",
+        "Claude Code"
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "id": "digitera",
+      "role": "Tech Track Participant",
+      "company": "Digitera Program",
+      "dates": "[PLACEHOLDER_DATES]",
+      "bullets": [
+        "Applied requirements analysis and product planning: BRD-to-PRD, user stories, scope definition, and acceptance criteria.",
+        "Used Jira and Agile workflows for backlog management, sprint planning, and delivery tracking.",
+        "Applied AI-assisted development and engineering workflows using Cursor, Claude Code, MCP, Git/GitHub, Pull Requests, code reviews, debugging, and testing."
+      ]
+    },
+    {
+      "id": "enppi",
+      "role": "AI Intern",
+      "company": "ENPPI",
+      "dates": "[PLACEHOLDER_DATES]",
+      "bullets": [
+        "Trained Machine Learning and Deep Learning models.",
+        "Applied Generative AI and RAG frameworks to build intelligent, context-aware retrieval systems.",
+        "Integrated LLMs with vector embeddings to automate data extraction and improve search accuracy."
+      ]
+    },
+    {
+      "id": "abe",
+      "role": "Intern",
+      "company": "ABE (Agricultural Bank of Egypt)",
+      "dates": "[PLACEHOLDER_DATES]",
+      "bullets": [
+        "Designed and queried relational databases using SQL to clean, filter, and extract complex datasets.",
+        "Optimized database schemas and queries using joins, aggregations, and indexing for fast data retrieval."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "medivault",
+      "title": "MediVault: Patient Medical History System with Fingerprint Identification",
+      "summary": "Full-stack medical platform integrating AI-based medical image analysis with secure electronic patient records.",
+      "highlights": [
+        "Full-stack medical platform integrating AI-based medical image analysis with secure electronic patient records.",
+        "Integrated four deep learning models for brain tumor, pneumonia, bone fracture, and stroke detection.",
+        "Built FastAPI REST APIs with PostgreSQL and SQLAlchemy for secure, efficient patient data management.",
+        "Integrated Google Gemini for an AI-powered medical chatbot and document simplification, with WebSocket-based real-time communication.",
+        "Implemented fingerprint-based emergency patient identification."
+      ],
+      "stack": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "SQLAlchemy",
+        "PyTorch",
+        "TensorFlow/Keras",
+        "Gemini",
+        "WebSockets"
+      ],
+      "categories": [
+        "Generative AI",
+        "Computer Vision",
+        "Backend & APIs",
+        "Machine Learning"
+      ],
+      "featured": true,
+      "githubUrl": "[PLACEHOLDER_GITHUB_URL]",
+      "liveDemoUrl": "[PLACEHOLDER_DEMO_URL]"
+    },
+    {
+      "id": "prompt-library",
+      "title": "Prompt Library: LLM-Powered Prompt Management & Generation System",
+      "summary": "End-to-end Generative AI application managing 15 reusable prompt templates for Q&A, Summarization, and Creative Writing.",
+      "highlights": [
+        "End-to-end Generative AI application managing 15 reusable prompt templates for Q&A, Summarization, and Creative Writing.",
+        "FastAPI REST APIs for prompt retrieval, filtering, validation, and dynamic prompt construction.",
+        "Integrated Google Gemini API with a JavaScript frontend for dynamic inputs and LLM-generated responses."
+      ],
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Google Gemini API",
+        "JavaScript",
+        "REST APIs"
+      ],
+      "categories": [
+        "Generative AI",
+        "Backend & APIs"
+      ],
+      "featured": true,
+      "githubUrl": "[PLACEHOLDER_GITHUB_URL]",
+      "liveDemoUrl": "[PLACEHOLDER_DEMO_URL]"
+    },
+    {
+      "id": "ai-customer-support",
+      "title": "AI Customer Support Automation",
+      "summary": "AI-powered customer support workflow using n8n, an LLM API, and conversational memory for automated messaging on Telegram/WhatsApp.",
+      "highlights": [
+        "AI-powered customer support workflow using n8n, an LLM API, and conversational memory for automated messaging on Telegram/WhatsApp.",
+        "Automated customer responses, conversation logging, and data storage in Google Sheets, with Gmail integration for notifications."
+      ],
+      "stack": [
+        "n8n",
+        "LLM API",
+        "Telegram/WhatsApp",
+        "Google Sheets",
+        "Gmail",
+        "AI Agent/Memory"
+      ],
+      "categories": [
+        "Generative AI",
+        "Automation"
+      ],
+      "featured": true,
+      "githubUrl": "[PLACEHOLDER_GITHUB_URL]",
+      "liveDemoUrl": "[PLACEHOLDER_DEMO_URL]"
+    },
+    {
+      "id": "brain-tumor",
+      "title": "Brain Tumor Classification",
+      "summary": "End-to-end Computer Vision pipeline using XceptionNet to classify brain tumors from MRI scans.",
+      "highlights": [
+        "End-to-end Computer Vision pipeline using XceptionNet to classify brain tumors from MRI scans.",
+        "Applied Transfer Learning and Data Augmentation to address class imbalance and boost accuracy.",
+        "Evaluated with confusion matrices and classification reports."
+      ],
+      "stack": [
+        "Python",
+        "Deep Learning",
+        "OpenCV",
+        "XceptionNet",
+        "Transfer Learning"
+      ],
+      "categories": [
+        "Computer Vision",
+        "Machine Learning"
+      ],
+      "featured": false,
+      "githubUrl": "[PLACEHOLDER_GITHUB_URL]",
+      "liveDemoUrl": "[PLACEHOLDER_DEMO_URL]"
+    },
+    {
+      "id": "resume-screening",
+      "title": "AI-Powered Resume Screening",
+      "summary": "NLP-based system that ranks candidates against job descriptions using TF-IDF and machine learning classification.",
+      "highlights": [
+        "NLP-based system that ranks candidates against job descriptions.",
+        "TF-IDF vectorization and cosine similarity for feature extraction and relevance scoring.",
+        "Trained and evaluated Logistic Regression and Random Forest models to automate candidate filtering."
+      ],
+      "stack": [
+        "Python",
+        "NLP",
+        "Scikit-Learn",
+        "TF-IDF",
+        "Cosine Similarity"
+      ],
+      "categories": [
+        "Machine Learning"
+      ],
+      "featured": false,
+      "githubUrl": "[PLACEHOLDER_GITHUB_URL]",
+      "liveDemoUrl": "[PLACEHOLDER_DEMO_URL]"
+    },
+    {
+      "id": "nids",
+      "title": "Network Intrusion Detection System (NIDS)",
+      "summary": "End-to-end ML pipeline using SVM and Random Forest on the NSL-KDD dataset with Streamlit deployment.",
+      "highlights": [
+        "End-to-end ML pipeline using SVM and Random Forest on the NSL-KDD dataset.",
+        "Data preprocessing with log transformations and multi-strategy NaN handling (imputation/removal).",
+        "Deployed an interactive Streamlit app for real-time network threat prediction and log analysis."
+      ],
+      "stack": [
+        "Python",
+        "Machine Learning",
+        "Scikit-Learn",
+        "Streamlit",
+        "NSL-KDD"
+      ],
+      "categories": [
+        "Machine Learning"
+      ],
+      "featured": false,
+      "githubUrl": "[PLACEHOLDER_GITHUB_URL]",
+      "liveDemoUrl": "[PLACEHOLDER_DEMO_URL]"
+    }
+  ],
+  "education": {
+    "degree": "Bachelor of Computer Science",
+    "major": "Artificial Intelligence",
+    "institution": "Misr University for Science and Technology (MUST)",
+    "location": "Cairo, Egypt",
+    "years": "2022–2026",
+    "gpa": "3.66/4.0"
+  },
+  "certificatesAndActivities": [
+    {
+      "id": "cert-epsilon",
+      "title": "Data Science and Machine Learning Diploma",
+      "issuerOrRole": "Epsilon AI",
+      "type": "certificate"
+    },
+    {
+      "id": "hackathon-digitopia",
+      "title": "DIGITOPIA Hackathon",
+      "issuerOrRole": "Participant",
+      "type": "hackathon"
+    }
+  ]
+}

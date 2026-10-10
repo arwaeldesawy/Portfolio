@@ -35,4 +35,17 @@ The browser checks use Playwright Chromium. If it is unavailable, run `npx playw
 - Every source skill category, stack, project highlight, and internship responsibility is retained. Experience dates are omitted. DIGITOPIA is participation.
 - No contact form, live AI requests, database, or application backend is present.
 
-The site has no production canonical URL. `metadataBase` is localhost:3000 for local social-preview links; replace it with the selected production domain when preparing a deployment. The source is maintained in https://github.com/arwaeldesawy/Portfolio. The repository contains a Next.js application; it requires a Next.js-compatible host to publish the website.
+The site has no production canonical URL. `metadataBase` uses localhost:3000 for local builds and arwaeldesawy.github.io for the Pages build. The source is maintained in https://github.com/arwaeldesawy/Portfolio. GitHub Pages uses a static export at https://arwaeldesawy.github.io/Portfolio/.
+
+## GitHub Pages
+
+Pages publishes the root of `main`. The generated `index.html`, `_next/`, project routes, and assets are committed alongside the source; `.nojekyll` preserves the Next.js files.
+
+```sh
+npm ci
+npm run prepare:pages
+```
+
+Commit the source and refreshed static output, then push `main`. `prepare:pages` replaces only the exported files listed in `.pages-files.json`. Local development still runs at http://localhost:3000 without a base path. `build:pages` builds with the `/Portfolio` base path, directory-style routes, and static image serving. It uses Next.js's supported Webpack compiler.
+
+To test the static export, serve `out/` under `/Portfolio/` with a static HTTP server, then run `npm run test:pages`. Set `PAGES_URL` to test the published website.

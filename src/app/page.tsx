@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { publicPath } from '@/lib/paths';
 import portrait from '../../public/profile.jpg';
 import { ArrowDown, ArrowUpRight, Download, MapPin, Github, Linkedin, Phone } from 'lucide-react';
 import { personal, projects, skills, experiences, education, activities, focusAreas } from '@/content/portfolio';
@@ -15,7 +16,7 @@ export default function Home() {
       <p className="hero-role">AI Engineer <span aria-hidden="true">/</span> Cairo, Egypt</p>
       <h1 id="hero-heading">Arwa Elsayed Eldesawy<span className="heading-period">.</span></h1>
       <p className="hero-description">Building practical applications with machine learning,<br className="desktop-break" /> computer vision, and generative AI.</p>
-      <div className="hero-actions"><a className="button button-primary" href="#projects">Explore projects <ArrowDown size={18} /></a><a className="button button-secondary" href={personal.cvUrl} download>Download CV <Download size={17} /></a></div>
+      <div className="hero-actions"><a className="button button-primary" href="#projects">Explore projects <ArrowDown size={18} /></a><a className="button button-secondary" href={publicPath(personal.cvUrl)} download>Download CV <Download size={17} /></a></div>
       <p className="hero-availability">Open to AI engineering roles & internships</p>
     </section>
 

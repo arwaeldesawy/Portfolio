@@ -14,3 +14,5 @@ Final mobile Lighthouse scores (local production build, standard mobile simulati
 | MediVault | 98 | 100 | 100 | 100 | 0 |
 
 Full HTML and JSON audit reports are stored alongside this file. Lighthouse scores can vary by machine and run.
+
+GitHub Pages compatibility: static export with `/Portfolio` base path, trailing-slash case-study routes, static portrait serving, and `.nojekyll`. `tests/pages.mjs` checks real static hosting, all six direct routes, client navigation, reloads, browser back, CV byte preservation, fonts/images, mobile controls, accessibility, social artwork, and failed requests.

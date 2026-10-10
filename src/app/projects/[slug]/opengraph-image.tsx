@@ -1,6 +1,7 @@
 import {ImageResponse} from 'next/og';
 import {projects} from '@/content/portfolio';
 export function generateStaticParams(){return projects.map(p=>({slug:p.slug}));}
+export const dynamic = 'force-static';
 export const alt='AI engineering project by Arwa Eldesawy';
 export const size={width:1200,height:630};
 export const contentType='image/png';

@@ -9,7 +9,10 @@
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "test": "node tests/portfolio.mjs",
-    "audit": "node tests/lighthouse.mjs"
+    "audit": "node tests/lighthouse.mjs",
+    "build:pages": "GITHUB_PAGES=1 next build --webpack",
+    "prepare:pages": "npm run build:pages && node scripts/stage-pages.mjs",
+    "test:pages": "node tests/pages.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.577.0",

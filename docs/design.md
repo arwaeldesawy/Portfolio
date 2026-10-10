@@ -10,6 +10,6 @@ Six original code-generated SVG thumbnails describe the projects: patient identi
 
 Project achievements summarize verified completed features and evaluation work from the original portfolio and CV. No new performance statistics, awards, clinical outcomes, or customer results are invented. Full technical highlights and stacks remain intact. DIGITOPIA remains participation. Experience dates remain omitted.
 
-Salma's project is used as a read-only design reference and remains unchanged. The completed portfolio source is uploaded to arwaeldesawy/Portfolio; no deployment is performed.
+Salma's project is used as a read-only design reference and remains unchanged. The completed portfolio source is uploaded to arwaeldesawy/Portfolio; GitHub Pages publishes a static export with the same design.
 
 Final refinements: a shorter hero with a wider portrait crop; two-sentence project summaries at 15px; a verified headline achievement directly below every project title; supporting achievements at 14px; and mobile previous/next controls below the cards with 44px touch targets.
